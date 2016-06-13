@@ -56,7 +56,6 @@ static SCOREP_Tuning_Action_Info return_values[] = {
 
 
 int32_t init() {
-    printf("OpenMP tuning plugin: initializing\n");
     return 0;
 }
 
@@ -67,7 +66,6 @@ SCOREP_Tuning_Action_Info* get_tuning_info() {
 
 
 void fini() {
-    printf("OpenMP tuning plugin: finalizing\n");
 }
 
 
