@@ -1,8 +1,8 @@
-#Score-P OpenMP tuning plugin
+# Score-P OpenMP tuning plugin
 
-##Compilation and Installation
+## Compilation and Installation
 
-###Prerequisites
+### Prerequisites
 
 To compile this plugin, you need:
 
@@ -12,7 +12,7 @@ To compile this plugin, you need:
 
 * Score-P
 
-###Building
+### Building
 
 1. Create build directory
 
@@ -31,16 +31,16 @@ To compile this plugin, you need:
 
         export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`pwd`
 
-##Usage
+## Usage
 
 This tuning plugin is used during runtime by sending tuning commands over the online access interface of Score-P. Normally, this plugin is used together
 with Periscope (http://periscope.in.tum.de/).
 
-###If anything fails
+### If anything fails
 
 Contact one of the authors.
 
-##Authors
+## Authors
 
-Robert Mijaković <mijakovi@in.tum.de>
-Michael Firbach <firbach@in.tum.de>
+* Robert Mijaković <mijakovi@in.tum.de>
+* Michael Firbach <firbach@in.tum.de>
